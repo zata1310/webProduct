@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333; /* Màu nền của NavigationBar */
+  color: white;
+  padding: 10px 20px;
+}
+
+.app-content {
+  flex: 1;
+  padding: 20px;
+  /* Thêm các kiểu khác nếu cần */
+}
+
+/* Optional: Add a basic reset for margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}/*# sourceMappingURL=App.css.map */

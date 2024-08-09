@@ -1,0 +1,74 @@
+/* NavigationBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #333;
+    color: white;
+    height: 60px;
+
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+
+        .navbar-logo-image {
+            height: 40px;
+        }
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .navbar-link:hover {
+        text-decoration: underline;
+    }
+
+    .navbar-user {
+        position: relative;
+
+        .navbar-user-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .navbar-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #444;
+            border-radius: 4px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .navbar-dropdown-item {
+                color: white;
+                text-decoration: none;
+                padding: 8px 12px;
+                border: none;
+                background: none;
+                text-align: left;
+                cursor: pointer;
+            }
+            
+            .navbar-dropdown-item:hover {
+                background-color: #555;
+            }
+        }
+    }
+
+
+}
+
+
+
